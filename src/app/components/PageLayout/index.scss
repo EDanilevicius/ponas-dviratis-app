@@ -1,0 +1,35 @@
+.PageLayout {
+  .App-logo {
+    max-width: 760px;
+  }
+  .App-logo1 {
+    max-block-size: 260px;
+    display: none;
+  }
+  @media (max-height: 300px), screen and (orientation: portrait) {
+    .App-logo {
+      display: none;
+    }
+    .App-logo1 {
+      display: inline-block;
+    }
+  }
+
+  .Main {
+    background: rgb(80, 89, 90);
+    margin: 0 auto;
+    min-height: 500px;
+    max-width: 760px;
+    width: 94%;
+    color: #f0f8ff;
+  }
+
+  .Footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+}
