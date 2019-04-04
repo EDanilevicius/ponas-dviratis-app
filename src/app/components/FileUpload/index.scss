@@ -1,0 +1,18 @@
+.dz-preview {
+  .dz-details {
+    padding: 35px 0px;
+  }
+  .dz-error-mark {
+    span {
+      padding: 3px 16px;
+      background: rgb(0, 0, 0);
+      border-radius: 100px;
+      font-size: 50px;
+      transition: all 0.6s;
+      &:hover {
+        color: #950000;
+        background: #f0f8ff;
+      }
+    }
+  }
+}

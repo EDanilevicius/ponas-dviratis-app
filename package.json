@@ -5,7 +5,10 @@
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "react-dom": "^16.8.6",
+    "react-dropzone-component": "^3.2.0",
+    "react-modal": "^3.8.1",
+    "react-responsive-modal": "^3.6.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "reset-css": "^4.0.1"

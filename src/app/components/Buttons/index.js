@@ -1,8 +1,12 @@
 import React from "react";
 import "./index.scss";
 
-function Buttons({ children }) {
-  return <button type="submit">{children}</button>;
+function Buttons({ ClickEvent, children }) {
+  return (
+    <button onClick={ClickEvent} className="Buttons" type="submit">
+      {children}
+    </button>
+  );
 }
 
 export default Buttons;

@@ -1,0 +1,22 @@
+.Registration {
+  h2 {
+    padding: 16px 0px;
+    font-size: 20px;
+    color: #f0f8ff;
+    text-transform: uppercase;
+  }
+  &-contacts {
+    form {
+    }
+  }
+  &-list {
+    form {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      input {
+        max-width: 720px;
+      }
+    }
+  }
+}

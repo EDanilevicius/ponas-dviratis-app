@@ -1,0 +1,19 @@
+.Button {
+  padding: 64px 254px;
+  a {
+    text-decoration: none;
+  }
+  nav {
+    background: rgb(0, 0, 0);
+    font-size: 28px;
+    color: #f0f8ff;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 25px;
+    transition: all 0.6s;
+    border-style: none;
+    &:hover {
+      background: #00aeff3f;
+    }
+  }
+}

@@ -1,12 +1,10 @@
 import React from "react";
 import "./index.scss";
-import { Link } from "react-router-dom";
-import { Buttons } from "../../components";
+import { Buttons, LinkButtons } from "../../components";
 
 function Search() {
   return (
     <div className="Search">
-    
       <div>
         <label for="name">Enter your name:</label>
         <input type="text" id="name" />
@@ -32,12 +30,7 @@ function Search() {
         <Buttons>Search</Buttons>
       </div>
 
-      <div className="Button">
-        <Link to="/front">
-          <nav>Back</nav>
-        </Link>
-      </div>
-
+      <LinkButtons link="/front" children="Back" />
     </div>
   );
 }
